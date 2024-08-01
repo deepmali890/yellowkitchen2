@@ -1,0 +1,558 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Martel Sans", sans-serif;
+  list-style: none;
+}
+
+header {
+  max-width: 100%;
+  box-shadow: 0px 0px 8px 3px #ccc;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+
+}
+header nav {
+  max-width: 1256px;
+  margin: auto;
+  align-items: center;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.infobox {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+ 
+}
+.infobox1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #9093a6;
+  cursor: pointer;
+  color: ;
+  
+
+}
+
+/* header end */
+
+/* main start */
+.bannerbox {
+  max-width: 1256px;
+  height: 706px;
+  margin: 40px auto;
+  display: flex;
+}
+.bannercontant {
+  flex-basis: 40%;
+  position: relative;
+  background-color: transparent;
+}
+.contontbox1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.contontbox1 h1 {
+  font-size: 58px;
+  font-weight: normal;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #3f4255;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btnbox {
+  display: flex;
+  gap: 24px;
+  margin: 20% 0px;
+}
+.btnbox button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 16px 24px 16px 24px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #ffe145;
+  background-color: transparent;
+  color: #3f4255;
+  cursor: pointer;
+}
+
+.btnbox button:hover {
+  background-color: #ffe145;
+}
+.contontbox1 button p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+.deliverybox {
+  max-width: 700px;
+  display: flex;
+  position: absolute;
+  bottom: -10%;
+  padding: 10px 40px;
+  margin-top: 10%;
+  gap: 10px;
+  background-color: transparent;
+}
+.deliveryboxinner {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 8px 3px #edecec;
+  border-radius: 8px;
+
+  padding: 10px 0px;
+}
+.deliveryboxinner:hover {
+  background-color: #ffe145;
+}
+.deliveryboxinner .imgbox {
+  width: 20%;
+  background-color: transparent;
+}
+.deliveryboxinner .deliveryconbox {
+  width: 70%;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #3f4255;
+}
+
+.bannerimg {
+  flex-basis: 65%;
+  height: auto;
+  background-image: url(img/Photo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* main end */
+
+/* hotel menu start */
+.hotelmenubox {
+  max-width: 1250px;
+  margin: auto;
+}
+.hotelmenu {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  align-items: center;
+}
+
+.hotelmenu1 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0.08em;
+  color: #3f4255;
+}
+.hotelmenu2 button {
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 4px;
+  border: none;
+  color: #3f4255;
+  cursor: pointer;
+}
+.hotelmenu2 button:hover {
+  background-color: #ffe145;
+}
+.menuimgbox {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.menuimg {
+  flex-basis: 25%;
+}
+.menuimg img {
+  width: 100%;
+  cursor: pointer;
+}
+.menuimg img:hover {
+  transform: scale(1.1);
+}
+/* hotel menu end */
+
+/* nearbox start */
+.nearestbox {
+  max-width: 100%;
+  background: #f2f4fa;
+  padding: 3% 0px;
+  align-items: center;
+  background-color: transparent;
+}
+.nearestinnerbox {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 9px;
+}
+.nearestinnerbox1 {
+  flex-basis: 50%;
+}
+.nearestinnerbox1 h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #3f4255;
+}
+.nearestinnerbox1 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: 20px;
+  color: #3f4255;
+}
+.nearestinnerbox2 {
+  flex-basis: 40%;
+  display: flex;
+  gap: 10px;
+}
+.findbox {
+  width: 50%;
+  border: 1px solid;
+  
+}
+.findbox input {
+  width: 80%;
+  padding: 15px 0px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.findbox input::placeholder {
+  color: #9093a6;
+
+  letter-spacing: 0.5px;
+}
+.nearestinnerbox2 button {
+  padding: 10px 29px 10px 29px;
+  gap: 10px;
+  border-radius: 4px;
+  border: none;
+  background: #ffe145;
+}
+.nearestinnerbox2 button:hover {
+  background-color: white;
+}
+/* nearbox end */
+
+.plan {
+  position: fixed;
+  bottom: 0%;
+  animation: plan 4s 0s infinite linear;
+  z-index: 1;
+  background-color: transparent;
+}
+.plan img {
+  width: 60px;
+  background-color: transparent;
+  
+}
+
+@keyframes plan {
+  0% {
+    left: 0%;
+    bottom: 0;
+  }
+  30% {
+    bottom: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.Specialitiesbox {
+  max-width: 1250px;
+  margin: auto;
+}
+.spacialmenu {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  align-items: center;
+}
+.spacialmenu1 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0.08em;
+  color: #3f4255;
+}
+
+.spacialmenu2 button {
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 4px;
+  border: none;
+  color: #3f4255;
+  cursor: pointer;
+}
+.spacialmenu2 button:hover {
+  background-color: #ffe145;
+}
+.Specialitiesmenu {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 5px;
+  margin: auto;
+  padding: 5% 0px;
+}
+.Specialitiesmenu1 {
+  flex-basis: 15%;
+  box-shadow: 0px 0px 8px 3px #efeeee;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.Specialitiesmenu1:hover {
+  background-color: #ffe145;
+}
+.Specialitiesmenu1 img {
+  padding: 5px 30px;
+}
+.Specialitiesmenu1 p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.nimbubg {
+  max-width: 100%;
+}
+.nimbuinner {
+  max-width: 100%;
+  height: 284px;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+
+}
+
+.nimbuicon {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+background-color: transparent;
+}
+.nimbuicon img {
+  width: 50%;
+  margin: 50px 70px;
+  background-color: transparent;
+  
+}
+.nimbuicon1{
+  background-color: transparent;
+}
+.map {
+  max-width: 1256px;
+  margin: auto;
+  margin-top: 2%;
+}
+.map img {
+  max-width: 100%;
+}
+.instagrambox {
+  max-width: 1250px;
+  margin: 50px auto;
+}
+.instagramboxinner {
+  max-width: 100%;
+}
+.instacon h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0.08em;
+  text-align: left;
+}
+.instacookimg {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 40px;
+}
+.instaimg {
+  flex-basis: 25%;
+}
+.instaimg img {
+  width: 90%;
+  cursor: pointer;
+}
+.instaimg img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  max-width: 100%;
+  background: #3f4255;
+  padding: 5%;
+}
+.footerinner {
+  max-width: 1256px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+}
+.footerinner .footerinner1 {
+  flex-basis: 25%;
+  background-color: transparent;
+}
+.footerinner .footerinner2 {
+  flex-basis: 70%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: transparent;
+}
+.borderwhite {
+  width: 100%;
+  border: 0.5px solid white;
+  margin-top: 10%;
+  background-color: transparent;
+}
+.playstorebox {
+  width: 100%;
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+}
+.playstore1 {
+  flex-basis: 50%;
+  align-items: center;
+  background-color: transparent;
+}
+.playstore1 img {
+  width: 80%;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.footerinner1 img{
+  background-color: transparent;
+}
+
+.footerinner2-1 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color:#FFFFFF;
+  background-color: transparent;
+}
+.footerinner2-1 ul{
+  background-color: transparent;
+}
+.footerinner2-1 ul li{
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.5px;
+text-align: left;
+color:#D4D7E5;
+margin: 15px 0px;
+cursor: pointer;
+background-color: transparent;  
+}
+.footerinner2-1 ul li:hover{
+  font-size: 17px;
+  color: white;
+
+}
+.socialicon {
+  max-width: 1256px;
+  margin: auto;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+  background-color: transparent;
+
+}
+.socialicon i {
+  margin: 0px 5px;
+  background-color: transparent;
+ 
+}
+.icon{
+  background-color: transparent;
+}
+.privacy{
+  background-color: transparent;
+}
+.privacy ul{
+  display: flex;
+  background-color: transparent;
+}
+.privacy ul li{
+font-size: 12px;
+line-height: 16px;
+text-align: left;
+font-weight: bold;
+margin: 0px 30px;
+color: #ffffff;
+background-color: transparent;
+}
+.privacy ul li.last{
+  font-size: 11px;
+  font-weight: normal;
+  background-color: transparent;
+}
+.btnfix button{
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 20px 20px 60px  #2a2a2a ,inset -20px -20px 60px rgba(117, 116, 116, 0.246);
+  border: none;
+  cursor: pointer;
+}
+/* .main{
+  background-color: #2a2a2a;
+  color: white;
+} */
+ .footerinner2-1{
+  background-color: transparent;
+ }
+ button{
+ 
+ }
+

@@ -1,0 +1,179 @@
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  nav .left {
+    margin: auto;
+  }
+
+  .bannerbox {
+    flex-direction: column;
+    position: relative;
+  }
+  .infobox {
+    display: none;
+  }
+  .bannerimg {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -30% 0px;
+  }
+  .contontbox1 h1 {
+    font-size: 42px;
+    margin-left: 10px;
+  }
+  .btnbox {
+    margin: 10px 20px;
+    
+  }
+  .deliverybox {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0%;
+    
+  }
+
+  .imgbox{
+    animation: spin 0.1s linear infinite;
+  }
+  @keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(4deg);
+    }
+}
+  .deliveryboxinner {
+    border: 1px solid #ffe145;
+    background-color: white;
+    padding: 8px 4px;
+    margin: 0px 10px;
+    border-radius: 8px;
+    left: 0px;
+    width: 70%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+        
+
+  }
+  .deliveryboxinner:hover {
+    background-color: #ffe145;
+    transform: scale(1.08);
+  }
+
+.deliveryboxinner .imgbox{
+    padding: 0;
+}
+  .btnbox button{
+    border: 1px solid black;
+    padding: 5px 20px;
+
+  }
+  .hotelmenu{
+    width: 95%;
+    flex-direction: column;
+  }
+  .hotelmenu1{
+    font-size: 30px;
+    margin: auto;
+  }
+  .menuimgbox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+  }
+  .menuimg:hover{
+    transform: scale(1.1);
+  }
+  .nearestinnerbox{
+    flex-direction: column;
+  }
+  .nearestinnerbox1 h2{
+    font-size: 25px;
+    text-align: center;
+  }
+  .nearestinnerbox1 p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .findbox{
+    width: 80%;
+    border-radius: 8px;
+    align-items: center;
+  }
+  .Specialitiesmenu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .spacialmenu{
+    flex-direction: column;
+  }
+  .nimbuinner{
+    max-width: 100%;
+    height: 284px;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: 15%;
+    background-size: cover;
+  }
+  .nimbuicon{
+    max-width: 1100px;
+    margin:  auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    grid-gap: 10px;
+  }
+  .nimbuicon img{
+    width: 70%;
+    margin: 0px 0px;
+  }
+  .nimbuicon img:hover{
+    transform: scale(1.1);
+  }
+  .instacon h2{
+    font-size: 22px;
+    }
+  .instacookimg{
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    grid-gap: 10px;
+  }
+  .footerinner{
+    flex-direction: column;
+  }
+  .footerinner .footerinner2 {
+    flex-basis: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .socialicon{
+    flex-direction: column;
+  }
+
+  .privacy {
+    margin-top: 3%;
+  }
+  .footerinner2{
+    margin-top: 10%;
+  }
+  .footerinner2-1 h4 {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    color:#FFFFFF;
+  }
+  .footerinner2-1 ul li{
+    font-size: 13px;
+  }
+
+}
